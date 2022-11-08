@@ -1,0 +1,30 @@
+﻿<PN type="net">
+	<head>
+		<author>john doe</author>
+		<version>0.1</version>
+		<date>3.3.2012</date>
+		<name>example</name>
+		<description>krasna petriho sit pro pana peringera</description>
+	</head>
+	<body>
+		<place id="pl1" x="5" y="10" width="50" height="50" desc="place one" color="red" index="1">
+			<mark value="5"/>
+			<mark value="8"/>
+		</place>
+		<place id="pl2" x="5" y="10" width="100" height="100" desc="place two" color="green" index="2">
+			<mark value="1"/>
+			<mark value="2"/>
+		</place>
+		<place id="pl3" x="5" y="10" width="25" height="25" desc="place three" color="blue" index="4">
+			<mark value="1"/>
+		</place>
+		<transition id="tr1" delay="5" x="5" y="10" width="100" height="75" desc="trans one" color="red" index="3">
+			<condition>x>y</condition>
+			<operation>z=x+5</operation>
+		</transition>
+		<arc id="arc1" from="pl1" to="tr1" var="x" weight="3" desc="arc one" color="blue"/>
+		<arc id="arc2" from="pl2" to="tr1" var="y" weight="4" desc="arc two" color="green"/>
+		<arc id="arc3" from="tr1" to="pl3" var="z" weight="2" desc="arc three" color="grey"/>
+	</body>
+</PN>
+

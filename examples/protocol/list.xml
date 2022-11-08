@@ -1,0 +1,9 @@
+﻿<PN type="list">
+	<head>
+	</head>
+	<body>
+		<net name="name1" version="0.1" author="john doe" date="1.1.2002"/>
+		<net name="name1" version="0.2" author="john doe" date="1.1.2003"/>
+		<net name="name2" version="0.5" author="john doe" date="1.1.2004"/>
+	</body>
+</PN>

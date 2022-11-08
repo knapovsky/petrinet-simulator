@@ -1,0 +1,44 @@
+<PN type="net">
+ <head>
+  <name>net</name>
+  <author>Martin Cincala</author>
+  <version>0.1</version>
+  <date></date>
+  <description></description>
+ </head>
+ <body>
+  <place width="100" x="68" y="225" desc="" height="100" id="newPlace0" index="0" color="white">
+   <mark value="4"/>
+   <mark value="10"/>
+   <mark value="42"/>
+   <mark value="78"/>
+  </place>
+  <place width="100" x="508" y="112" desc="" height="100" id="newPlace1" index="0" color="white"/>
+  <place width="100" x="469" y="358" desc="" height="100" id="newPlace2" index="0" color="white"/>
+  <place width="100" x="41" y="55" desc="" height="100" id="newPlace3" index="0" color="white">
+   <mark value="5"/>
+   <mark value="9"/>
+   <mark value="10"/>
+   <mark value="5"/>
+  </place>
+  <place width="100" x="841" y="209" desc="" height="100" id="newPlace4" index="0" color="white"/>
+  <transition width="50" x="324" y="101" desc="" height="100" id="newTrans0" delay="0" index="0" color="white">
+   <condition>x>y</condition>
+   <operation>z=x+y</operation>
+  </transition>
+  <transition width="50" x="324" y="310" desc="" height="100" id="newTrans1" delay="0" index="0" color="white">
+   <operation>a=p+2</operation>
+  </transition>
+  <transition width="50" x="711" y="206" desc="" height="100" id="newTrans2" delay="0" index="0" color="white">
+   <operation>t=q-w</operation>
+  </transition>
+  <arc desc="" weight="1" from="newPlace0" id="newArc0" to="newTrans0" index="20" color="black" var="x"/>
+  <arc desc="" weight="1" from="newPlace0" id="newArc1" to="newTrans1" index="20" color="black" var="p"/>
+  <arc desc="" weight="1" from="newTrans0" id="newArc2" to="newPlace1" index="20" color="black" var="z"/>
+  <arc desc="" weight="1" from="newTrans1" id="newArc3" to="newPlace2" index="20" color="black" var="a"/>
+  <arc desc="" weight="2" from="newPlace3" id="newArc5" to="newTrans0" index="20" color="black" var="y"/>
+  <arc desc="" weight="1" from="newPlace1" id="newArc4" to="newTrans2" index="20" color="black" var="q"/>
+  <arc desc="" weight="1" from="newPlace2" id="newArc6" to="newTrans2" index="20" color="black" var="w"/>
+  <arc desc="" weight="1" from="newTrans2" id="newArc7" to="newPlace4" index="20" color="black" var="t"/>
+ </body>
+</PN>

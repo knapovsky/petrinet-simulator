@@ -1,0 +1,37 @@
+<PN type="net">
+ <head>
+  <name>circle</name>
+  <author>Martin Cincala</author>
+  <version>0.5</version>
+  <date>06.05.2012</date>
+  <description></description>
+ </head>
+ <body>
+  <place width="100" x="-58" y="312" desc="" height="100" id="newPlace0" index="0" color="white">
+   <mark value="0"/>
+  </place>
+  <place width="100" x="483" y="306" desc="" height="100" id="newPlace1" index="0" color="white"/>
+  <place width="100" x="170" y="472" desc="" height="100" id="newPlace2" index="0" color="white"/>
+  <transition width="50" x="198" y="313" desc="" height="100" id="newTransition0" delay="0" index="0" color="white">
+   <operation>b=a+1</operation>
+  </transition>
+  <transition width="50" x="385" y="475" desc="" height="100" id="newTransition1" delay="0" index="0" color="white">
+   <operation>d=c+1</operation>
+  </transition>
+  <transition width="50" x="30" y="482" desc="" height="100" id="newTransition2" delay="0" index="0" color="white">
+   <operation>f=e+1</operation>
+  </transition>
+  <transition width="50" x="199" y="178" desc="" height="100" id="newTransition3" delay="0" index="0" color="white">
+   <operation>h=g-1</operation>
+   <operation>x=g-1</operation>
+  </transition>
+  <arc desc="" weight="1" from="newPlace0" id="newArc0" to="newTransition0" index="20" color="black" var="a"/>
+  <arc desc="" weight="1" from="newTransition0" id="newArc1" to="newPlace1" index="20" color="black" var="b"/>
+  <arc desc="" weight="1" from="newPlace1" id="newArc2" to="newTransition1" index="20" color="black" var="c"/>
+  <arc desc="" weight="1" from="newTransition1" id="newArc3" to="newPlace2" index="20" color="black" var="d"/>
+  <arc desc="" weight="1" from="newPlace2" id="newArc4" to="newTransition2" index="20" color="black" var="e"/>
+  <arc desc="" weight="1" from="newTransition2" id="newArc5" to="newPlace0" index="20" color="black" var="f"/>
+  <arc desc="" weight="1" from="newPlace0" id="newArc6" to="newTransition3" index="20" color="black" var="g"/>
+  <arc desc="" weight="1" from="newTransition3" id="newArc7" to="newPlace1" index="20" color="black" var="h"/>
+ </body>
+</PN>

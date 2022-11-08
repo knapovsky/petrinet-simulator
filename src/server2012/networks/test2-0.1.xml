@@ -1,0 +1,38 @@
+<PN type="net">
+ <head>
+  <name>test2</name>
+  <author>martin</author>
+  <version>0.1</version>
+  <date></date>
+  <description></description>
+ </head>
+ <body>
+  <place width="100" x="-13" y="229" desc="" height="100" id="newPlace0" index="0" color="white">
+   <mark value="1"/>
+   <mark value="2"/>
+   <mark value="4"/>
+   <mark value="3"/>
+  </place>
+  <place width="100" x="353" y="273" desc="" height="100" id="newPlace1" index="0" color="white"/>
+  <place width="100" x="676" y="260" desc="" height="100" id="newPlace2" index="0" color="white">
+   <mark value="5"/>
+   <mark value="6"/>
+  </place>
+  <transition width="50" x="235" y="246" desc="" height="100" id="newTrans0" delay="0" index="0" color="white">
+   <condition>a>1</condition>
+   <operation>b=a</operation>
+  </transition>
+  <transition width="50" x="516" y="214" desc="" height="100" id="newTrans1" delay="0" index="0" color="white">
+   <operation>d=c+3</operation>
+  </transition>
+  <transition width="50" x="504" y="406" desc="" height="100" id="newTrans2" delay="0" index="0" color="white">
+   <operation>f=e+1</operation>
+  </transition>
+  <arc desc="" weight="1" from="newPlace0" id="newArc0" to="newTrans0" index="20" color="black" var="a"/>
+  <arc desc="" weight="1" from="newTrans0" id="newArc1" to="newPlace1" index="20" color="black" var="b"/>
+  <arc desc="" weight="1" from="newPlace1" id="newArc2" to="newTrans1" index="20" color="black" var="c"/>
+  <arc desc="" weight="1" from="newTrans1" id="newArc3" to="newPlace2" index="20" color="black" var="d"/>
+  <arc desc="" weight="1" from="newPlace1" id="newArc4" to="newTrans2" index="20" color="black" var="e"/>
+  <arc desc="" weight="1" from="newTrans2" id="newArc5" to="newPlace2" index="20" color="black" var="f"/>
+ </body>
+</PN>

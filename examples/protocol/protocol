@@ -1,0 +1,58 @@
+Komunikacni protokol
+--------------------
+- komunikaci vzdy zacina klient
+- komunikaci vzdy konci server
+- nikdy nenastane situace, ze od 
+  klienta, nebo od serveru jde
+  vice zprav po sobe
+  
+
+CLIENT		SERVER
+
+LOGIN
+   ----login----->
+   <---ack/nack---
+
+GETLIST
+   ----getlist--->
+   <---ack/nack---
+   ---ack/nack--->
+   <-----list-----
+   ---ack/nack--->
+   <---ack/nack---
+
+GETNET
+   ----getnet---->
+   <---ack/nack---
+   ----ack/nack-->
+   <-----net-----
+   ---ack/nack--->
+   <---ack/nack---
+
+SIMSTART
+   ----simstart-->
+   <---ack/nack---
+   ------net----->
+   <---ack/nack---
+
+SIMSTEP
+   ----simstep--->
+   <---ack/nack---
+   ---ack/nack--->   
+   <---netupdate--
+   ---ack/nack--->
+   <---ack/nack---
+
+SIMRUN
+   ----simrun---->
+   <---ack/nack---
+   ---ack/nack--->   
+   <---netupdate--
+   ---ack/nack--->
+   <---ack/nack---
+
+SAVENET
+   ----savenet--->
+   <---ack/nack---
+   ------net----->   
+   <---ack/nack---

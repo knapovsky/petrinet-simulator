@@ -1,0 +1,33 @@
+<PN type="history">
+ <body>
+  <history version="0.1" by="testuser" name="test2" time="01:25:53" date="30.04.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="01:26:06" date="30.04.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="21:10:40" date="02.05.2012"/>
+  <history version="0.2" by="" name="test1" time="15:57:44" date="06.05.2012"/>
+  <history version="0.3" by="" name="test1" time="15:58:06" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="16:15:13" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:04:29" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:04:45" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:04:52" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:04:58" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:05:14" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:05:24" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:08:02" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:08:16" date="06.05.2012"/>
+  <history version="0.2" by="" name="test1" time="17:08:26" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:11:54" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:16:13" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:16:17" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:16:20" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:16:29" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:17:45" date="06.05.2012"/>
+  <history version="0.1" by="" name="test1" time="17:17:48" date="06.05.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="19:37:20" date="06.05.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="19:37:42" date="06.05.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="19:37:52" date="06.05.2012"/>
+  <history version="0.2" by="testuser" name="test1" time="19:37:56" date="06.05.2012"/>
+  <history version="0.1" by="testuser" name="new" time="19:38:49" date="06.05.2012"/>
+  <history version="0.4" by="testuser" name="circle" time="22:07:58" date="06.05.2012"/>
+  <history version="0.4" by="testuser" name="circle" time="22:09:18" date="06.05.2012"/>
+ </body>
+</PN>

@@ -1,0 +1,17 @@
+﻿<PN type="netupdate">
+	<head>
+	</head>
+	<body>
+		<!-- Pokud byl obsah mista zmenen, posila se jeho kompletni obsah -->
+		<place id="pl1">
+			<mark value="5"/>
+		</place>
+		<place id="pl2">
+		</place>
+		<place id="pl3">
+			<mark value="1"/>
+			<mark value="8"/>
+		</place>
+	</body>
+</PN>
+

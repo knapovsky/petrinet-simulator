@@ -1,0 +1,18 @@
+<PN type="settings">
+ <head/>
+ <body>
+  <defaultcolor>#00ff33</defaultcolor>
+  <defaultarccolor>#00ff55</defaultarccolor>
+  <defaultplacename>place</defaultplacename>
+  <defaulttransitionname>trans</defaulttransitionname>
+  <defaultarcname>arc</defaultarcname>
+  <defaultweight>2</defaultweight>
+  <defaultarcindex>-1</defaultarcindex>
+  <scenewidth>1000</scenewidth>
+  <sceneheight>1000</sceneheight>
+  <username>useruser</username>
+  <password>passpass</password>
+  <ip>147.229.193.111</ip>
+  <port>44444</port>
+ </body>
+</PN>
