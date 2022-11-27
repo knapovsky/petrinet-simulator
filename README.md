@@ -1,26 +1,26 @@
 Toto README obsahuje pouze nejdůležitějši informace, zbytek informací lze nalézt v dokumentaci k programu, která vznikne vygenerovaním pomocí make doxygen v adresáři ./doc/html
 
 ## Použití
-
+```
  make - Překlad serveru a klienta
  make run - Spuštení klienta
  make runserver - Spuštení serveru
  make doxygen - Vygenerování dokumentace do ./doc/html/
  make pack - Vytvoření archivu s projektem
  make clean - Odstranění dočasných souborů a vygenerované dokumentace
-
+```
 ## Login
-
+```
  Uživatelské jméno: "testuser"
  Heslo: "password"
-
+```
 ## Příklady
-
+```
  ./examples/networks - Příklady sítí
  ./examples/configs - Konfigurační soubory klienta
  ./examples/history - Ukázka souboru s historií simulace
  ./examples/protocol - Ukázka zpráv komunikačního protokolu a samotný komunikační protokol
-
+```
 ## Server
 
 Server2012 implementuje TCP server a metody pro simulaci vysokoúrovňových petriho sítí.
